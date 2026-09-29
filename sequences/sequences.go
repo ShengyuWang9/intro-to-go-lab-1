@@ -23,10 +23,10 @@ func mapArray(f func(a int) int, array [3]int) {
 }
 
 func main() {
+	//question 3a
 	var array = [3]int{5, 10, 15}
 	for _, num := range array {
-		go addOne(num)
-		fmt.Println(num)
+		fmt.Println(addOne(num))
 	}
 
 }
