@@ -50,6 +50,6 @@ func main() {
 	mapSlice(addOne, intsSlice)
 	fmt.Println(intsSlice)
 	intsArray := [3]int{1, 2, 3}
-	mapArray(addOne, intsArray)
+	intsArray = mapArray(addOne, intsArray)
 	fmt.Println(intsArray)
 }
