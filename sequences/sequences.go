@@ -60,6 +60,5 @@ func main() {
 	//fmt.Println(intsArray)
 
 	//the outcome shows that array in function can't accept the different requirement, but slices can
-	//when modify the input parameter requirement the program can run
-
+	//when modify the input parameter requirement, the program can run
 }
