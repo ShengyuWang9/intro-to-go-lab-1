@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func addOne(a int) int {
 	return a + 1
 }
@@ -76,7 +74,14 @@ func main() {
 	//}
 
 	//question 3e
-	intsSlice := []int{5, 6, 7}
-	fmt.Println(double(intsSlice))
+	//intsSlice := []int{5, 6, 7}
+	//fmt.Println(double(intsSlice))
 
+	//question 3f
+	//array is using the copy version to modify
+	//slice is using itself to modify
+
+	//append(slides'name, number want to add...)
+
+	// not quite sure yet
 }
