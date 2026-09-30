@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func addOne(a int) int {
 	return a + 1
 }
@@ -46,10 +44,22 @@ func main() {
 	//	fmt.Println(addOne(num2))
 	//}
 
-	intsSlice := []int{1, 2, 3}
-	mapSlice(addOne, intsSlice)
-	fmt.Println(intsSlice)
-	intsArray := [3]int{1, 2, 3}
-	intsArray = mapArray(addOne, intsArray)
-	fmt.Println(intsArray)
+	//intsSlice := []int{1, 2, 3}
+	//mapSlice(addOne, intsSlice)
+	//fmt.Println(intsSlice)
+	//intsArray := [3]int{1, 2, 3}
+	//intsArray = mapArray(addOne, intsArray)
+	//fmt.Println(intsArray)
+
+	//question 3c
+	//intsSlice := []int{1, 2, 3, 4, 5}
+	//mapSlice(addOne, intsSlice)
+	//fmt.Println(intsSlice)
+	//intsArray := [5]int{1, 2, 3, 4, 5}
+	//intsArray = mapArray(addOne, intsArray)
+	//fmt.Println(intsArray)
+
+	//the outcome shows that array in function can't accept the different requirement, but slices can
+	//when modify the input parameter requirement the program can run
+
 }
