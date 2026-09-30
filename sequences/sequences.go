@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func addOne(a int) int {
 	return a + 1
 }
@@ -61,4 +63,12 @@ func main() {
 
 	//the outcome shows that array in function can't accept the different requirement, but slices can
 	//when modify the input parameter requirement, the program can run
+
+	//question 3d
+	var intsSlice = []int{2, 3, 4, 5, 6}
+	newSlice := intsSlice[1:3]
+	fmt.Println(newSlice)
+	for _, num := range newSlice {
+		fmt.Println(square(num))
+	}
 }
